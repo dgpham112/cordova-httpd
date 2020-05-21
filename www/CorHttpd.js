@@ -1,6 +1,8 @@
 
-var argscheck = require('cordova/argscheck'),
-    exec = require('cordova/exec');
+//var argscheck = require('cordova/argscheck'),
+//    exec = require('cordova/exec');
+
+var exec = cordova.exec;
 
 var corhttpd_exports = {};
 
